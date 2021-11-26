@@ -1,0 +1,17 @@
+.image-intro {
+  height: 100vh;
+}
+.image-intro canvas {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: white;
+}
